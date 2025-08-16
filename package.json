@@ -1,0 +1,12 @@
+{
+  "name": "strange-lil-scaffold-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm -w strange-lil-scaffold run build && npm -w create-strange-lil-scaffold run build",
+    "build:core": "npm -w strange-lil-scaffold run build",
+    "build:create": "npm -w create-strange-lil-scaffold run build"
+  }
+}

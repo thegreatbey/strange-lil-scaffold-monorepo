@@ -1,0 +1,38 @@
+{
+  "name": "strange-lil-scaffold",
+  "version": "0.0.1",
+  "description": "Project scaffolding core",
+  "bin": {
+    "strange-lil-scaffold": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "dist",
+    "LICENSE*",
+    "README*"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/cli.js --help",
+    "test": "test_file_in_root"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegreatbey/strange-lil-scaffold.git"
+  },
+  "homepage": "https://github.com/thegreatbey/strange-lil-scaffold#readme",
+  "bugs": {
+    "url": "https://github.com/thegreatbey/strange-lil-scaffold/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "keywords": []
+}

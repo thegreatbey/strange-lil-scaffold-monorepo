@@ -1,0 +1,37 @@
+{
+  "name": "create-strange-lil-scaffold",
+  "version": "0.0.1",
+  "description": "Runner for `npm create strange-lil-scaffold`",
+  "type": "commonjs",
+  "main": "dist/cli.js",
+  "bin": {
+    "create-strange-lil-scaffold": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README*",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "strange-lil-scaffold": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thegreatbey/create-strange-lil-scaffold.git"
+  },
+  "homepage": "https://github.com/thegreatbey/create-strange-lil-scaffold#readme",
+  "bugs": {
+    "url": "https://github.com/thegreatbey/create-strange-lil-scaffold/issues"
+  }
+}
