@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "scripts": {
+    "smoke": "npm run build && node scripts/smoke.js",
     "build": "npm -w strange-lil-scaffold run build && npm -w create-strange-lil-scaffold run build",
     "build:core": "npm -w strange-lil-scaffold run build",
     "build:create": "npm -w create-strange-lil-scaffold run build"
