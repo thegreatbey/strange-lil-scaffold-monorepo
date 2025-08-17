@@ -1,6 +1,6 @@
 {
   "name": "create-strange-lil-scaffold",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Runner for `npm create strange-lil-scaffold`",
   "type": "commonjs",
   "main": "dist/cli.js",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.8",
-    "strange-lil-scaffold": "^0.0.1"
+    "strange-lil-scaffold": "^0.0.2"
   },
   "devDependencies": {
     "@types/minimist": "^1.2.5",

@@ -135,6 +135,11 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 .vscode/
+# Archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
 `;
 
 // CI workflow (clipcopy-style) written into .github/workflows/publish.yml

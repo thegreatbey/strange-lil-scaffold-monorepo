@@ -1,3 +1,9 @@
+
+
+<p align="center">
+  <img src="assets/sls-logo.svg" width="720" alt="Strange Lil Scaffold">
+</p>
+
 # Strange Lil Scaffold Monorepo
 
 [![Install](https://img.shields.io/badge/Install-npx%20create--strange--lil--scaffold-CB3837?logo=npm)](https://www.npmjs.com/package/create-strange-lil-scaffold)

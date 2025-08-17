@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Strange Lil Scaffold icon">
+  <defs>
+    <style>
+      .frame { stroke: #111111; stroke-width: 10; fill: none; }
+      .rail { stroke: #111111; stroke-width: 8; stroke-linecap: round; }
+      .node { fill: #111111; }
+      .spark { fill: #F59E0B; } /* amber accent */
+    </style>
+  </defs>
+
+  <!-- rounded frame -->
+  <rect x="10" y="10" width="236" height="236" rx="28" class="frame"/>
+
+  <!-- vertical rails -->
+  <line x1="84"  y1="48" x2="84"  y2="208" class="rail"/>
+  <line x1="172" y1="48" x2="172" y2="208" class="rail"/>
+
+  <!-- horizontal rails -->
+  <line x1="48" y1="80"  x2="208" y2="80"  class="rail"/>
+  <line x1="48" y1="128" x2="208" y2="128" class="rail"/>
+  <line x1="48" y1="176" x2="208" y2="176" class="rail"/>
+
+  <!-- nodes (joint plates) -->
+  <!-- top row -->
+  <circle cx="84"  cy="80"  r="7" class="node"/>
+  <circle cx="172" cy="80"  r="7" class="node"/>
+  <!-- middle row -->
+  <circle cx="84"  cy="128" r="7" class="node"/>
+  <circle cx="172" cy="128" r="7" class="node"/>
+  <!-- bottom row -->
+  <circle cx="84"  cy="176" r="7" class="node"/>
+  <circle cx="172" cy="176" r="7" class="node"/>
+
+  <!-- little 'strange' spark -->
+  <path class="spark" d="M210 46 l8 14 14 8 -14 8 -8 14 -8 -14 -14 -8 14 -8 8 -14z"/>
+</svg>
